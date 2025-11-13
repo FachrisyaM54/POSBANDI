@@ -1,7 +1,7 @@
 ﻿Imports MySql.Data.MySqlClient
 
 Module mainconnect
-    Private ConnectionString As String = "server=localhost;user id=root; database=posbandi; port = 3308"
+    Private ConnectionString As String = "server=localhost;user id=root; database=posbandi; port = 3306"
 
     Public conn As New MySqlConnection(ConnectionString)
     Public cmd As MySqlCommand
