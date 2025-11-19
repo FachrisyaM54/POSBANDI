@@ -1,6 +1,6 @@
 ﻿Imports MySql.Data.MySqlClient
 
-Public Class Form1
+Public Class Manajemenpetugas
     Dim cmd As New MySqlCommand
     Dim dr As MySqlDataReader
     Dim ds As New DataSet
@@ -230,5 +230,9 @@ Public Class Form1
             btnupdate.Enabled = True
             btnhapus.Enabled = True
         End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnsmpn.Click, btnhps.Click, btbaru.Click, btnupdt.Click
+
     End Sub
 End Class

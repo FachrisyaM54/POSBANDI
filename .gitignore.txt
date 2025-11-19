@@ -3,7 +3,7 @@
 .vscode/
 
 # Abaikan hasil build
-bin/
+[Bb]in/
 obj/
 x64/
 x86/

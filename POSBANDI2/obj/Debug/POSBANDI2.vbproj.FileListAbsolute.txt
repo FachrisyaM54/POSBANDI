@@ -33,7 +33,6 @@ D:\Program\Desktop\POSBANDI2\POSBANDI2\bin\Debug\System.Numerics.Vectors.xml
 D:\Program\Desktop\POSBANDI2\POSBANDI2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Program\Desktop\POSBANDI2\POSBANDI2\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.vbproj.AssemblyReference.cache
-D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.Form1.resources
 D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.Resources.resources
 D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.vbproj.GenerateResource.cache
 D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.vbproj.CoreCompileInputs.cache
@@ -41,3 +40,4 @@ D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.vbproj.Up2Date
 D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.exe
 D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.xml
 D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.pdb
+D:\Program\Desktop\POSBANDI2\POSBANDI2\obj\Debug\POSBANDI2.Manajemenpetugas.resources
