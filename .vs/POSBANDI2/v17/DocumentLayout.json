@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Program\\Desktop\\POSBANDI2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|D:\\Program\\Desktop\\POSBANDI2\\posbandi2\\cetakpetugas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|solutionrelative:posbandi2\\cetakpetugas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|D:\\Program\\Desktop\\POSBANDI2\\posbandi2\\manajemenpetugas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|solutionrelative:posbandi2\\manajemenpetugas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|d:\\program\\desktop\\posbandi2\\posbandi2\\petugas.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
+      "RelativeMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|solutionrelative:posbandi2\\petugas.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|POSBANDI2||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|D:\\Program\\Desktop\\POSBANDI2\\posbandi2\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|solutionrelative:posbandi2\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|D:\\Program\\Desktop\\POSBANDI2\\posbandi2\\mainconnect.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|solutionrelative:posbandi2\\mainconnect.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|D:\\Program\\Desktop\\POSBANDI2\\posbandi2\\cetakpetugas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{13F85959-837B-4432-9DDA-000255DC5445}|POSBANDI2\\POSBANDI2.vbproj|solutionrelative:posbandi2\\cetakpetugas.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cetakpetugas.vb",
+              "DocumentMoniker": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\cetakpetugas.vb",
+              "RelativeDocumentMoniker": "POSBANDI2\\cetakpetugas.vb",
+              "ToolTip": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\cetakpetugas.vb",
+              "RelativeToolTip": "POSBANDI2\\cetakpetugas.vb",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-20T07:58:09.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cetakpetugas.vb [Design]",
+              "DocumentMoniker": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\cetakpetugas.vb",
+              "RelativeDocumentMoniker": "POSBANDI2\\cetakpetugas.vb",
+              "ToolTip": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\cetakpetugas.vb [Design]",
+              "RelativeToolTip": "POSBANDI2\\cetakpetugas.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-20T07:49:53.751Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "petugas.rpt",
+              "DocumentMoniker": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\petugas.rpt",
+              "RelativeDocumentMoniker": "POSBANDI2\\petugas.rpt",
+              "ToolTip": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\petugas.rpt",
+              "RelativeToolTip": "POSBANDI2\\petugas.rpt",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPESURBVDhPrZRLaFxVHMZ/59w7k8lkJpmZTDJ5m1pJ2iY0JoWA0aKFUK1dtF2I2ampoggiSHAjaHFVRBA3FXSjuJFaqDbFCl1Z00JNMkmahGIe5lHznplM7rxn7sNFHp1JuvQPH/f\u002Bz\u002BX73fP4OPB/lmVZIr9v6XjhzKs9736WP/akWpieHLz63eUP9o8DqPmNq9TjP9r6bGfbYT\u002BKIhEU/A\u002BAfzdijHgrqvVcNn37\u002BvdfxrYia/nflfymrrGp7flTr1w42VaL112Mx1WEz\u002B3Am6dYMkvWspWdfK6zfT0ciW6GNlaSCW1zlyHzgQACkEKQSOXYjKWJ7FMyo\u002BN22jlxrK645\u002BJHl9u7ul9zl/kCu/4DwL0SIJ4kYD2a5MbALFoyy9me9z7tPv9G367tAHB31xQhUOS2sjLN71Y/q2KJ\u002BoCbrpYaOo9W0dVaw6G68uKSkmLHrr8AKIRASoFg\u002BymlJC5jPLDGuBm/zg9b3zIpBgn4SqjakcthQ5GPMfuAIHemKIQgYoSYNv5mSjzkYXKCX\u002BPX\u002BCX\u002BMxO5UeTO7IUoTIJUnJUOxVlZqjgrPcJe5jQtiWFapK0EwXSQgdQAhpKlyCzCMAxua7e4Ev6KSC6EJYwDQLX63NWXwGwD/KLS0Ta9YhGJ5ehP3GQmM4OOQTQVJbapoRs6mBAMD/H\u002BSi9fH7\u002BCoLgQ\u002BM2Hx52ZXM4T1nLVsysZ7\u002Bh8lks/hVA9TYQDc0QDQSyXiTQU0mMZMktpGqob6Xv9YyodFUREvAAo9djClBlf/LPOHbvTeVidaWlwsBzOMjvl59FYK\u002BH5p0mqcaQuMZZ02tUOLh57mxcrTuGyuQ4sWYnqZRvB0cl5IVhorPVWHGkoOe2wq8yuGYRXKxBZP3ZviOTWMk\u002Bl63mzs5e3unsRYvtAVsNxgsPDg2N/3bkFoMxO3GV24p6ZzNkSamnVM7XV5RdOd/hY2zLZ0EySIS/WP0ewe4J8/vInnGs7jyrlXrzWIilGgkODI/e3gXuxGb//G\u002BN3b2C3qZQU22muKaLBb8PpUPAWldN36BJNzlYsQMidiElQ5OOoFQDTCY1UYgshBaYliabAEJIyl4q3xI7fFkA17ZimubfcfB0AAugGbCZgcCbNUsRCURTq/ZLmgE5US7IcirO0EWNxXdtTKqsj84AF96GQiqZb9rnxxXSlXcXRWCFwq3rSXxQLLS5HE\u002BFNLYuRMjIpzcr3hdaXF3bfC4A1PsfI2RO\u002BLzI5/Z14It28Fc\u002BytBYfnZze\u002BHFqbm0opxuPHtzr14b/uJbL9\u002BXXf8LCnE6KaQGDAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-11-20T07:45:35.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mainconnect.vb",
+              "DocumentMoniker": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\mainconnect.vb",
+              "RelativeDocumentMoniker": "POSBANDI2\\mainconnect.vb",
+              "ToolTip": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\mainconnect.vb",
+              "RelativeToolTip": "POSBANDI2\\mainconnect.vb",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-20T04:02:08.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Application.Designer.vb",
+              "DocumentMoniker": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\My Project\\Application.Designer.vb",
+              "RelativeDocumentMoniker": "POSBANDI2\\My Project\\Application.Designer.vb",
+              "ToolTip": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\My Project\\Application.Designer.vb",
+              "RelativeToolTip": "POSBANDI2\\My Project\\Application.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-18T23:26:28.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "POSBANDI2",
+              "DocumentMoniker": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\POSBANDI2.vbproj",
+              "RelativeDocumentMoniker": "POSBANDI2\\POSBANDI2.vbproj",
+              "ToolTip": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\POSBANDI2.vbproj",
+              "RelativeToolTip": "POSBANDI2\\POSBANDI2.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-20T08:19:07.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Manajemenpetugas.vb [Design]",
+              "DocumentMoniker": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\Manajemenpetugas.vb",
+              "RelativeDocumentMoniker": "POSBANDI2\\Manajemenpetugas.vb",
+              "ToolTip": "D:\\Program\\Desktop\\POSBANDI2\\POSBANDI2\\Manajemenpetugas.vb [Design]",
+              "RelativeToolTip": "POSBANDI2\\Manajemenpetugas.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-11-18T15:22:34.823Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

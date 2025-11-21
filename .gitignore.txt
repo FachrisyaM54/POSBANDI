@@ -1,0 +1,15 @@
+# Abaikan folder sistem Visual Studio
+.vs/
+.vscode/
+
+# Abaikan hasil build
+[Bb]in/
+obj/
+x64/
+x86/
+Debug/
+Release/
+
+# Abaikan file user specific
+*.user
+*.suo
