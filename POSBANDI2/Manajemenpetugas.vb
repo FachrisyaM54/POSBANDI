@@ -1,10 +1,18 @@
-﻿Imports MySql.Data.MySqlClient
+﻿Imports CrystalDecisions.ReportAppServer
+Imports MySql.Data.MySqlClient
 
 Public Class Manajemenpetugas
     Dim cmd As New MySqlCommand
     Dim dr As MySqlDataReader
     Dim ds As New DataSet
     Public da As MySqlDataAdapter
+
+
+    ''' '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    '''TAB 1
+    ''' '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+
     Private Sub TabPage1_Click(sender As Object, e As EventArgs) Handles TabPage1.Click
 
     End Sub
@@ -15,9 +23,9 @@ Public Class Manajemenpetugas
     Sub KondisiAwal()
         ' Bersihkan semua input
         tbnama.Clear()
-        tbusia.Clear()
         tbtlp.Clear()
         tbalmt.Clear()
+        tbusia.Clear()
         tbdate.Value = Date.Now
         rbaktif.Checked = True ' Set default ke Aktif
 
@@ -153,7 +161,7 @@ Public Class Manajemenpetugas
 
         Try
             connected()
-            Dim sql As String = "UPDATE petugas SET nama=@nama, telp=@telp, alamat=@alamat, usia=@usia, status_aktif=@status, WHERE kode_petugas=@kode"
+            Dim sql As String = "UPDATE petugas SET nama=@nama, telp=@telp, alamat=@alamat, usia=@usia, status_aktif=@status WHERE kode_petugas=@kode"
             cmd = New MySqlCommand(sql, conn)
 
             Dim status As Integer = If(rbaktif.Checked, 1, 0)
@@ -215,6 +223,7 @@ Public Class Manajemenpetugas
             tbnama.Text = row.Cells("nama").Value.ToString()
             tbtlp.Text = row.Cells("telp").Value.ToString()
             tbalmt.Text = row.Cells("alamat").Value.ToString()
+            tbusia.Text = row.Cells("usia").Value.ToString()
             'tbdate.Value = Convert.ToDateTime(row.Cells("tanggal_lahir").Value)
 
             ' Set RadioButton berdasarkan nilai status_aktif (1 atau 0)
@@ -235,4 +244,20 @@ Public Class Manajemenpetugas
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnsmpn.Click, btnhps.Click, btbaru.Click, btnupdt.Click
 
     End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim petugas1 As New cetakpetugas()
+        Me.Hide()
+        petugas1.Show()
+
+    End Sub
+
+    ''' '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    '''TAB 2
+    ''' '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    Private Sub TabPage3_Click(sender As Object, e As EventArgs) Handles TabPage3.Click
+
+    End Sub
+
+
 End Class

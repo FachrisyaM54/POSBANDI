@@ -45,23 +45,24 @@ Partial Class Manajemenpetugas
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
-        Me.tbtggl = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.btnsmpn = New System.Windows.Forms.Button()
-        Me.btbaru = New System.Windows.Forms.Button()
-        Me.btnhps = New System.Windows.Forms.Button()
-        Me.tblok = New System.Windows.Forms.TextBox()
-        Me.tbjammulai = New System.Windows.Forms.TextBox()
-        Me.tbjamselesai = New System.Windows.Forms.TextBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.tbptgs = New System.Windows.Forms.TextBox()
-        Me.tbketerangan = New System.Windows.Forms.TextBox()
         Me.btnupdt = New System.Windows.Forms.Button()
+        Me.btnhps = New System.Windows.Forms.Button()
+        Me.btbaru = New System.Windows.Forms.Button()
+        Me.btnsmpn = New System.Windows.Forms.Button()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.tbjamselesai = New System.Windows.Forms.TextBox()
+        Me.tbjammulai = New System.Windows.Forms.TextBox()
+        Me.tbketerangan = New System.Windows.Forms.TextBox()
+        Me.tbptgs = New System.Windows.Forms.TextBox()
+        Me.tblok = New System.Windows.Forms.TextBox()
+        Me.tbtggl = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.mnjptg.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.dgvpetugas, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -76,11 +77,12 @@ Partial Class Manajemenpetugas
         Me.mnjptg.Location = New System.Drawing.Point(1, 10)
         Me.mnjptg.Name = "mnjptg"
         Me.mnjptg.SelectedIndex = 0
-        Me.mnjptg.Size = New System.Drawing.Size(785, 713)
+        Me.mnjptg.Size = New System.Drawing.Size(785, 450)
         Me.mnjptg.TabIndex = 0
         '
         'TabPage1
         '
+        Me.TabPage1.Controls.Add(Me.Button1)
         Me.TabPage1.Controls.Add(Me.rbnonaktif)
         Me.TabPage1.Controls.Add(Me.rbaktif)
         Me.TabPage1.Controls.Add(Me.btnhapus)
@@ -103,8 +105,8 @@ Partial Class Manajemenpetugas
         Me.TabPage1.Controls.Add(Me.Label1)
         Me.TabPage1.Location = New System.Drawing.Point(4, 25)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
-        Me.TabPage1.Size = New System.Drawing.Size(777, 684)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(777, 421)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Manajemen Petugas"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -311,119 +313,10 @@ Partial Class Manajemenpetugas
         Me.TabPage3.Location = New System.Drawing.Point(4, 25)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(777, 684)
+        Me.TabPage3.Size = New System.Drawing.Size(777, 421)
         Me.TabPage3.TabIndex = 1
-        Me.TabPage3.Text = "TabPage3"
+        Me.TabPage3.Text = "Manajemen Jadwal"
         Me.TabPage3.UseVisualStyleBackColor = True
-        '
-        'tbtggl
-        '
-        Me.tbtggl.Location = New System.Drawing.Point(128, 30)
-        Me.tbtggl.Name = "tbtggl"
-        Me.tbtggl.Size = New System.Drawing.Size(129, 22)
-        Me.tbtggl.TabIndex = 0
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(49, 33)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(58, 16)
-        Me.Label8.TabIndex = 1
-        Me.Label8.Text = "Tanggal"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(60, 70)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(47, 16)
-        Me.Label9.TabIndex = 1
-        Me.Label9.Text = "Lokasi"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(39, 106)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(68, 16)
-        Me.Label10.TabIndex = 1
-        Me.Label10.Text = "Jam Mulai"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(25, 144)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(82, 16)
-        Me.Label11.TabIndex = 1
-        Me.Label11.Text = "Jam Selesai"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(412, 39)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(57, 16)
-        Me.Label12.TabIndex = 1
-        Me.Label12.Text = "Petugas"
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(412, 82)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(76, 16)
-        Me.Label13.TabIndex = 1
-        Me.Label13.Text = "Keterangan"
-        '
-        'btnsmpn
-        '
-        Me.btnsmpn.Location = New System.Drawing.Point(347, 124)
-        Me.btnsmpn.Name = "btnsmpn"
-        Me.btnsmpn.Size = New System.Drawing.Size(75, 23)
-        Me.btnsmpn.TabIndex = 2
-        Me.btnsmpn.Text = "Simpan"
-        Me.btnsmpn.UseVisualStyleBackColor = True
-        '
-        'btbaru
-        '
-        Me.btbaru.Location = New System.Drawing.Point(428, 124)
-        Me.btbaru.Name = "btbaru"
-        Me.btbaru.Size = New System.Drawing.Size(75, 23)
-        Me.btbaru.TabIndex = 2
-        Me.btbaru.Text = "Baru"
-        Me.btbaru.UseVisualStyleBackColor = True
-        '
-        'btnhps
-        '
-        Me.btnhps.Location = New System.Drawing.Point(590, 124)
-        Me.btnhps.Name = "btnhps"
-        Me.btnhps.Size = New System.Drawing.Size(75, 23)
-        Me.btnhps.TabIndex = 2
-        Me.btnhps.Text = "Hapus"
-        Me.btnhps.UseVisualStyleBackColor = True
-        '
-        'tblok
-        '
-        Me.tblok.Location = New System.Drawing.Point(127, 67)
-        Me.tblok.Name = "tblok"
-        Me.tblok.Size = New System.Drawing.Size(129, 22)
-        Me.tblok.TabIndex = 0
-        '
-        'tbjammulai
-        '
-        Me.tbjammulai.Location = New System.Drawing.Point(127, 103)
-        Me.tbjammulai.Name = "tbjammulai"
-        Me.tbjammulai.Size = New System.Drawing.Size(129, 22)
-        Me.tbjammulai.TabIndex = 0
-        '
-        'tbjamselesai
-        '
-        Me.tbjamselesai.Location = New System.Drawing.Point(127, 138)
-        Me.tbjamselesai.Name = "tbjamselesai"
-        Me.tbjamselesai.Size = New System.Drawing.Size(129, 22)
-        Me.tbjamselesai.TabIndex = 0
         '
         'DataGridView1
         '
@@ -435,20 +328,6 @@ Partial Class Manajemenpetugas
         Me.DataGridView1.Size = New System.Drawing.Size(637, 191)
         Me.DataGridView1.TabIndex = 3
         '
-        'tbptgs
-        '
-        Me.tbptgs.Location = New System.Drawing.Point(509, 36)
-        Me.tbptgs.Name = "tbptgs"
-        Me.tbptgs.Size = New System.Drawing.Size(129, 22)
-        Me.tbptgs.TabIndex = 0
-        '
-        'tbketerangan
-        '
-        Me.tbketerangan.Location = New System.Drawing.Point(509, 76)
-        Me.tbketerangan.Name = "tbketerangan"
-        Me.tbketerangan.Size = New System.Drawing.Size(129, 22)
-        Me.tbketerangan.TabIndex = 0
-        '
         'btnupdt
         '
         Me.btnupdt.Location = New System.Drawing.Point(509, 124)
@@ -457,6 +336,139 @@ Partial Class Manajemenpetugas
         Me.btnupdt.TabIndex = 2
         Me.btnupdt.Text = "Update"
         Me.btnupdt.UseVisualStyleBackColor = True
+        '
+        'btnhps
+        '
+        Me.btnhps.Location = New System.Drawing.Point(590, 124)
+        Me.btnhps.Name = "btnhps"
+        Me.btnhps.Size = New System.Drawing.Size(75, 23)
+        Me.btnhps.TabIndex = 2
+        Me.btnhps.Text = "Hapus"
+        Me.btnhps.UseVisualStyleBackColor = True
+        '
+        'btbaru
+        '
+        Me.btbaru.Location = New System.Drawing.Point(428, 124)
+        Me.btbaru.Name = "btbaru"
+        Me.btbaru.Size = New System.Drawing.Size(75, 23)
+        Me.btbaru.TabIndex = 2
+        Me.btbaru.Text = "Baru"
+        Me.btbaru.UseVisualStyleBackColor = True
+        '
+        'btnsmpn
+        '
+        Me.btnsmpn.Location = New System.Drawing.Point(347, 124)
+        Me.btnsmpn.Name = "btnsmpn"
+        Me.btnsmpn.Size = New System.Drawing.Size(75, 23)
+        Me.btnsmpn.TabIndex = 2
+        Me.btnsmpn.Text = "Simpan"
+        Me.btnsmpn.UseVisualStyleBackColor = True
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(412, 82)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(76, 16)
+        Me.Label13.TabIndex = 1
+        Me.Label13.Text = "Keterangan"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(412, 39)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(57, 16)
+        Me.Label12.TabIndex = 1
+        Me.Label12.Text = "Petugas"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(25, 144)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(82, 16)
+        Me.Label11.TabIndex = 1
+        Me.Label11.Text = "Jam Selesai"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(39, 106)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(68, 16)
+        Me.Label10.TabIndex = 1
+        Me.Label10.Text = "Jam Mulai"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(60, 70)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(47, 16)
+        Me.Label9.TabIndex = 1
+        Me.Label9.Text = "Lokasi"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(49, 33)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(58, 16)
+        Me.Label8.TabIndex = 1
+        Me.Label8.Text = "Tanggal"
+        '
+        'tbjamselesai
+        '
+        Me.tbjamselesai.Location = New System.Drawing.Point(127, 138)
+        Me.tbjamselesai.Name = "tbjamselesai"
+        Me.tbjamselesai.Size = New System.Drawing.Size(129, 22)
+        Me.tbjamselesai.TabIndex = 0
+        '
+        'tbjammulai
+        '
+        Me.tbjammulai.Location = New System.Drawing.Point(127, 103)
+        Me.tbjammulai.Name = "tbjammulai"
+        Me.tbjammulai.Size = New System.Drawing.Size(129, 22)
+        Me.tbjammulai.TabIndex = 0
+        '
+        'tbketerangan
+        '
+        Me.tbketerangan.Location = New System.Drawing.Point(509, 76)
+        Me.tbketerangan.Name = "tbketerangan"
+        Me.tbketerangan.Size = New System.Drawing.Size(129, 22)
+        Me.tbketerangan.TabIndex = 0
+        '
+        'tbptgs
+        '
+        Me.tbptgs.Location = New System.Drawing.Point(509, 36)
+        Me.tbptgs.Name = "tbptgs"
+        Me.tbptgs.Size = New System.Drawing.Size(129, 22)
+        Me.tbptgs.TabIndex = 0
+        '
+        'tblok
+        '
+        Me.tblok.Location = New System.Drawing.Point(127, 67)
+        Me.tblok.Name = "tblok"
+        Me.tblok.Size = New System.Drawing.Size(129, 22)
+        Me.tblok.TabIndex = 0
+        '
+        'tbtggl
+        '
+        Me.tbtggl.Location = New System.Drawing.Point(128, 30)
+        Me.tbtggl.Name = "tbtggl"
+        Me.tbtggl.Size = New System.Drawing.Size(129, 22)
+        Me.tbtggl.TabIndex = 0
+        '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(24, 365)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(164, 39)
+        Me.Button1.TabIndex = 13
+        Me.Button1.Text = "PRINT"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Manajemenpetugas
         '
@@ -521,4 +533,5 @@ Partial Class Manajemenpetugas
     Friend WithEvents tbketerangan As TextBox
     Friend WithEvents tbptgs As TextBox
     Friend WithEvents btnupdt As Button
+    Friend WithEvents Button1 As Button
 End Class
